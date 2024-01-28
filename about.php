@@ -49,7 +49,7 @@ error_reporting(0);
                         if ($query->rowCount() > 0) {
                           foreach ($results as $row) { ?>
                             <strong>
-                              <h3 style="text-align: center; color:blue;">
+                              <h3 style="text-align: center;">
                                 <?php echo ($row->PageTitle); ?>
                               </h3>
                             </strong>

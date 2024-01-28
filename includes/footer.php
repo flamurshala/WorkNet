@@ -2,7 +2,7 @@
 
   <div class="text-box box">
 
-    <h4 style="color: blue">WorkNet</h4>
+    <h4>WorkNet</h4>
     <?php
     $sql = "SELECT * from tblpages where PageType='contactus'";
     $query = $dbh->prepare($sql);

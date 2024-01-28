@@ -7,7 +7,7 @@
             aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span
               class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
 
-          <h2><a href="index.php"><strong class="logo" style="color:blue;padding-top:5%">WorkNet</strong></a>
+          <h2><a href="index.php"><strong class="logo" style="padding-top:5%">WorkNet</strong></a>
           </h2>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
@@ -41,8 +41,8 @@
           <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="true"> <img src="images/account.png" width="40" height="40"></button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-            <li><a href="sign-in.php">Jobseekers</a></li>
-            <li><a href="employers/emp-login.php">Employers</a></li>
+            <li><a href="sign-in.php">Punëkërkues</a></li>
+            <li><a href="employers/emp-login.php">Puunëdhënës</a></li>
             <li><a href="admin/index.php">Admin</a></li>
           </ul>
         <?php } ?>
@@ -72,9 +72,9 @@
           }
           ?>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-            <li><a href="my-profile.php">My Profile</a></li>
-            <li><a href="profile.php">Edit Profile</a></li>
-            <li><a href="logout.php">Log off</a></li>
+            <li><a href="my-profile.php">Profili im</a></li>
+            <li><a href="profile.php">Përditëso profilin</a></li>
+            <li><a href="logout.php">Dilni</a></li>
           </ul>
         <?php } ?>
       </div>

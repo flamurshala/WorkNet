@@ -103,7 +103,7 @@ if (isset($_POST['signup'])) {
 
             <?php if (@$msg) { ?>
               <div class="succMsg">
-                <strong>Success</strong> :
+                <strong>Sukses</strong> :
                 <?php echo htmlentities($msg); ?>
               </div>
             <?php } ?>
@@ -118,7 +118,7 @@ if (isset($_POST['signup'])) {
                 <span id="user-availability-status1" style="font-size:12px;"></span>
               </div>
               <div class="col-md-6 col-sm-6">
-                <label>Fjalëkalimis</label>
+                <label>Fjalëkalimi</label>
                 <input type="password" name="empppassword" autocomplete="off"
                   pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}"
                   title="Të paktën një numër, nje shkronjë të madhe, të vogël dhe së paku 6 karaktere" required>

@@ -6,7 +6,7 @@
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
             aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span
               class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-          <h2><a href="job-listing.php"><strong class="logo" style="color:blue;padding-top:5%">WorkNet</strong></a>
+          <h2><a href="job-listing.php"><strong class="logo" style="padding-top:5%">WorkNet</strong></a>
           </h2>
         </div>
         <ul class="nav navbar-nav" id="nav">

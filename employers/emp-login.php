@@ -70,7 +70,7 @@ if (isset($_POST['signin'])) {
               <div class="input-box">
                 <input type="submit" value="Kyçu" name="signin">
               </div>
-              <a href="forgot-password.php" class="login">Keni harruar Fjalëkalimin</a> <b>ose</b>
+              <a href="forgot-password.php" class="login">Keni harruar Fjalëkalimin?</a>
               <div class="login-social">
                 <em>Nuk keni llogari? <a href="employers-signup.php"></a></em>
               </div>
