@@ -1,0 +1,22 @@
+WorkNet aplikacioni punuar nga : Flamur Shala, Dea Tahiri, Driton Ramshaj
+
+Te dhenat e Admin
+Username: admin
+Password: Test@123
+
+punedhenesi starlabs
+Username: starlabs@starlabs.com
+Password: @Starlabs123
+
+punedhenesi aztech
+Username: aztech@aztech.com
+Password: @Aztech123
+
+punedhenesi gjirafa
+Username gjirafa@gjirafa.com
+Password @Gjirafa123
+
+punekerkuesit 
+Username: driton@gmail.com
+Password: @Driton123
+njejt per dea dhe flamurin
