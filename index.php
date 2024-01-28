@@ -59,7 +59,7 @@ include('includes/config.php');
         <div class="container">
           <div class="clearfix">
             <h2>Kategoritë e punës</h2>
-            <a href="#" class="btn-style-1">&nbsp;</a>
+
           </div>
           <div class="row">
             <?php

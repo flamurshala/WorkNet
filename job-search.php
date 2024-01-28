@@ -32,7 +32,7 @@ $vid = $_GET['viewid'];
           <div class="row">
             <div class="col-md-12 col-sm-8">
               <div id="content-area">
-                <h2 style="color: blue">Rezulltatet e kërkimit për
+                <h2>Rezulltatet e kërkimit për
                   <?php echo htmlentities($_POST['jobtitle']); ?>
                 </h2>
                 <hr />

@@ -5,16 +5,23 @@
 
 
 Background:	#f5f5f5 (lily white)
+ Background:	#1D2B53 dark blue new
+ Background:	background-color: #191825;
+
 
 Content:	#666666 (grey)
+Content:	#f5f5f5 (lily white) new
+
 
 Header h1:	#222222 (dark grey)
+Header h1: 	#f5f5f5 (lily white) new
 
 Header h2:	#222222 (dark gre)
+Header h2:		#f5f5f5 (lily white) new
 
 Footer:		#fff (white)
 
-
+logo: color:#B6FFFA light blue
 
 
 [Typography]
@@ -110,6 +117,7 @@ body {
 	float: left;
 	width: 100%;
 	position: relative;
+	background-color: #191825;
 }
 
 .theme-style-1 h1 {
@@ -119,21 +127,23 @@ body {
 }
 .theme-style-1 h2 {
 	font: 500 30px/30px 'Roboto', sans-serif;
-	color: #222;
+	/* color: #222; */
+	color: #f5f5f5;
 	margin: 0 0 25px 0;
 }
 .theme-style-1 h2 a {
 	text-decoration: none;
-	color: #222;
+	color: #f5f5f5;
+	
 }
 .theme-style-1 h4 {
 	font: 500 18px/18px 'Roboto', sans-serif;
-	color: #222;
+	color: #f5f5f5;
 	margin: 0;
 }
 .theme-style-1 h4 a {
 	text-decoration: none;
-	color: #222;
+	color: #f5f5f5;
 }
 .theme-style-1 a.btn-style-1 {
 	padding: 11px 25px;
@@ -234,7 +244,7 @@ strong.logo a {
 }
 #nav li a {
 	font: 400 15px/15px 'Roboto', sans-serif;
-	color: #222;
+	color: #fff;
 	text-decoration: none;
 	padding: 8px 0 8px 0;
 	display: block;
@@ -327,11 +337,13 @@ strong.logo a {
 	position: relative;
 	float: left;
 	width: 100%;
+	
 }
 #banner {
 	float: left;
 	width: 100%;
 	position: relative;
+	
 }
 #banner img {
 	display: block;
@@ -523,7 +535,7 @@ strong.logo a {
 	top: -3px;
 	width: 35%;
 	height: 100%;
-	background-color: #ffc107;
+	background-color: #3d464a;
 	z-index: -1;
 	transform: rotate(-33deg) scaleY(1);
 	transition: all 0.3s ease-in;
@@ -1210,7 +1222,8 @@ strong.logo-2 {
 	float: left;
 	width: 100%;
 	/* background: #ebebeb; */
-	background: black;
+	background: #191825;
+
 	padding: 60px 0 30px 0;
 }
 .popular-categories h2 {
@@ -1223,7 +1236,9 @@ strong.logo-2 {
 .popular-categories .box {
 	float: left;
 	width: 100%;
-	background: #fff;
+	/* background: #000; */
+	/* background: #1D2B53; */
+	background: #30475E;
 	color: #666;
 	padding: 30px 0;
 	margin: 0 0 30px 0;
@@ -1274,7 +1289,7 @@ strong.logo-2 {
 .recent-row {
 	float: left;
 	width: 100%;
-	background: #f5f5f5;
+	background: #191825;
 }
 #content-area {
 	float: left;
@@ -1283,7 +1298,8 @@ strong.logo-2 {
 #content-area .box {
 	float: left;
 	width: 100%;
-	background: #fff;
+	/* background: #fff; */
+	background: #30475E;
 	border-radius: 3px;
 	padding: 20px;
 	margin: 0 0 8px 0;
@@ -1314,7 +1330,7 @@ strong.logo-2 {
 }
 #content-area .box .text-col p {
 	font: 400 15px/15px 'Roboto', sans-serif;
-	color: #666;
+	color: #fff;
 }
 #content-area .box .text-col p em {
 	font-weight: 400;
@@ -1332,7 +1348,7 @@ strong.logo-2 {
 }
 #content-area .box strong.price {
 	font: 700 18px/18px 'Roboto', sans-serif;
-	color: #222;
+	color: #fff;
 	float: left;
 	padding: 24px 0 0 50px;
 }
@@ -3183,9 +3199,9 @@ strong.logo-2 {
 	width: 420px;
 	margin: 0 auto;
 	display: inline-block;
-	box-shadow: 0 2px 6px 0 rgba(0,0,0,0.15);
-	-moz-box-shadow: 0 2px 6px 0 rgba(0,0,0,0.15);
-	-webkit-box-shadow: 0 2px 6px 0 rgba(0,0,0,0.15);
+	box-shadow: 0 9px 13px 0 rgba(0,0,0,0.9);
+	-moz-box-shadow: 0 9px 13px 0 rgba(0,0,0,0.9);
+	-webkit-box-shadow: 0 9px 13px 0 rgb(48,71,94);
 	padding: 79px 30px 30px 30px;
 	position: relative;
 }
@@ -3666,7 +3682,7 @@ select option {
 .candidates-search-bar {
 	float: left;
 	width: 100%;
-	background: #fff;
+	background: #191825;
 	padding: 30px 0;
 }
 .candidates-search-bar form {
@@ -3705,7 +3721,7 @@ select option {
 .resumes-section {
 	float: left;
 	width: 100%;
-	background: #f5f5f5;
+	background: #191825;
 }
 .resumes-content {
 	float: left;
@@ -3721,7 +3737,7 @@ select option {
 	width: 100%;
 	padding: 30px;
 	margin: 0 0 10px 0;
-	background: #fff;
+	background: #30475eb5;
 	box-shadow: 0 2px 6px 0 rgba(0,0,0,0.15);
 	-moz-box-shadow: 0 2px 6px 0 rgba(0,0,0,0.15);
 	-webkit-box-shadow: 0 2px 6px 0 rgba(0,0,0,0.15);
@@ -3894,7 +3910,7 @@ select option {
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	background: #fff;
+	background: #30475eb5 ;
 	border-radius: 3px;
 	margin: 0 0 10px 0;
 	box-shadow: 0 2px 6px 0 rgba(0,0,0,0.15);
