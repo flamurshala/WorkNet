@@ -101,16 +101,16 @@ if (strlen($_SESSION['jsid']) == 0) {
                         <div class="col"> <span>
                             <?php echo htmlentities($result->PassingYear); ?>
                           </span>
-                          <p><strong style="color: blue">Emri i shkollës/universitetit</strong>:
+                          <p><strong style="color: white">Emri i shkollës/universitetit</strong>:
                             <?php echo htmlentities($result->ClgorschName); ?>
                           </p>
-                          <p><strong style="color: blue">Drejtimi</strong>:
+                          <p><strong style="color: white">Drejtimi</strong>:
                             <?php echo htmlentities($result->Stream); ?>
                           </p>
-                          <p><strong style="color: blue">Nota mesatare</strong>:
+                          <p><strong style="color: white">Nota mesatare</strong>:
                             <?php echo htmlentities($result->CGPA); ?>
                           </p>
-                          <p><strong style="color: blue">Përqindja e përfundimit</strong>:
+                          <p><strong style="color: white">Përqindja e përfundimit</strong>:
                             <?php
                             if ($result->Percentage == '0'):
                               echo 'NA';
@@ -143,10 +143,10 @@ if (strlen($_SESSION['jsid']) == 0) {
                             <?php echo htmlentities($result->FromDate); ?> -
                             <?php echo htmlentities($result->ToDate); ?>
                           </span>
-                          <p><strong style="color: blue">Lloji i punës: </strong>:
+                          <p><strong style="color: white">Lloji i punës: </strong>:
                             <?php echo htmlentities($result->EmployementType); ?>
                           </p>
-                          <p><strong style="color: blue">Pagesa: </strong>:
+                          <p><strong style="color: white">Pagesa: </strong>:
                             <?php echo htmlentities($result->Ctc); ?>(për muaj)
                           </p>
                           <!-- <p><strong style="color: blue">Skills: </strong>: <?php echo htmlentities($result->Skills); ?></p> -->

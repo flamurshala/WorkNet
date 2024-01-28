@@ -3927,7 +3927,7 @@ select option {
 }
 .summary-box strong.title b {
 	font-weight: 400;
-	color: #333;
+	color: gray;
 }
 .summary-box .col {
 	float: left;
