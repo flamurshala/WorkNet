@@ -46,7 +46,7 @@ if (isset($_POST['login'])) {
 <body>
     <div id="page-container" class="main-content-boxed">
         <main id="main-container">
-            <div class="bg-image" style="background-image: url('assets/img/photos/photo34@2x.jpg');">
+            <div class="bg-image" style="background-image: url('assets/img/photos/photo5@2x.jpg');">
                 <div class="row mx-0 bg-black-op">
                     <div class="hero-static col-md-6 col-xl-6 d-none d-md-flex align-items-md-end">
                         <div class="p-30 invisible" data-toggle="appear">
