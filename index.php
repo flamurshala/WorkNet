@@ -19,7 +19,6 @@ include('includes/config.php');
   <link href="css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,500,700,900' rel='stylesheet'
     type='text/css'>
-  <!-- <link href="css/dark.css" rel="stylesheet" type="text/css"> -->
 </head>
 
 <body class="theme-style-1">
@@ -46,8 +45,8 @@ include('includes/config.php');
             </div>
           </form>
           <?php if (strlen($_SESSION['jsid'] == 0)) { ?>
-            <div class="btn-row"> <a href="sign-up.php"><i class="fa fa-user"></i>Unë jam punëkërkues</a> <a
-                href="employers/emp-login.php"><i class="fa fa-building-o"></i>Unë jam punëdhënës</a> </div>
+            <div class="btn-row"> <a href="sign-in.php"><i class="fa fa-user"></i>Unë jam Punëkërkues</a> <a
+                href="employers/emp-login.php"><i class="fa fa-building-o"></i>Unë jam Punëdhënës</a> </div>
           <?php } ?>
         </div>
       </div>
@@ -143,12 +142,12 @@ include('includes/config.php');
                           </strong>
                           <?php
                           if ($row->jobType == "Full Time") { ?>
-                            <a href="jobs-details.php?jid=<?php echo ($row->jobId); ?>" class="btn-1 btn-color-2 ripple">
+                            <a href="jobs-details.php?jid=<?php echo ($row->jobId); ?>" class="btn-1 btn-color-3 ripple">
                               <?php echo htmlentities($row->jobType); ?>
                             </a>
                           <?php }
                           if ($row->jobType == "Contract") { ?>
-                            <a href="jobs-details.php?jid=<?php echo ($row->jobId); ?>" class="btn-1 btn-color-4 ripple">
+                            <a href="jobs-details.php?jid=<?php echo ($row->jobId); ?>" class="btn-1 btn-color-3 ripple">
                               <?php echo htmlentities($row->jobType); ?>
                             </a>
                           <?php }
@@ -158,12 +157,17 @@ include('includes/config.php');
                             </a>
                           <?php }
                           if ($row->jobType == "Part Time") { ?>
-                            <a href="jobs-details.php?jid=<?php echo ($row->jobId); ?>" class="btn-1 btn-color-1 ripple">
+                            <a href="jobs-details.php?jid=<?php echo ($row->jobId); ?>" class="btn-1 btn-color-3 ripple">
                               <?php echo htmlentities($row->jobType); ?>
                             </a>
                           <?php }
                           if ($row->jobType == "Internship") { ?>
-                            <a href="jobs-details.php?jid=<?php echo ($row->jobId); ?>" class="btn-1 btn-color-2 ripple">
+                            <a href="jobs-details.php?jid=<?php echo ($row->jobId); ?>" class="btn-1 btn-color-3 ripple">
+                              <?php echo htmlentities($row->jobType); ?>
+                            </a>
+                          <?php }
+                          if ($row->jobType == "Half Time") { ?>
+                            <a href="jobs-details.php?jid=<?php echo ($row->jobId); ?>" class="btn-1 btn-color-3 ripple">
                               <?php echo htmlentities($row->jobType); ?>
                             </a>
                           <?php }

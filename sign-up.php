@@ -37,12 +37,12 @@ if (isset($_POST['signup'])) {
       $query->execute();
       $lastInsertId = $dbh->lastInsertId();
       if ($lastInsertId) {
-        $msg = "Jeni regjistruar me suksesë";
+        $msg = "Jeni regjistruar me sukses";
       } else {
-        $error = "Diqka shkoj keq. Te lutem provo perseri";
+        $error = "Diqka shkoj keq. Ju lutem provoni perseri";
       }
     } else {
-      $error = "Përdoruesi ekzisotn. Të lutem provo përsëri";
+      $error = "Përdoruesi ekziston. Ju lutem provoni përsëri";
     }
   }
 }
@@ -112,7 +112,7 @@ if (isset($_POST['signup'])) {
 
             <?php if (@$msg) { ?>
               <div class="succMsg">
-                <strong>Success</strong> :
+                <strong>Sukses</strong> :
                 <?php echo htmlentities($msg); ?>
               </div>
             <?php } ?>

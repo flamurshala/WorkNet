@@ -132,7 +132,7 @@ if (isset($_POST['signup'])) {
                 <input type="text" name="tagline" autocomplete="off" required>
               </div>
               <div class="col-md-12">
-                <h4>Përshkrimi</h4>
+                <h4 style="color: #333;">Përshkrimi</h4>
                 <div class="text-editor-box">
                   <textarea name="description" autocomplete="off" required></textarea>
                 </div>

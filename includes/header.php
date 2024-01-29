@@ -27,7 +27,7 @@
 
             <li><a href="about.php">Reth nesh</a></li>
 
-            <li><a href="contact.php">kontakti</a></li>
+            <li><a href="contact.php">Kontakti</a></li>
           </ul>
         </div>
       </nav>
@@ -42,7 +42,7 @@
             aria-haspopup="true" aria-expanded="true"> <img src="images/account.png" width="40" height="40"></button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
             <li><a href="sign-in.php">Punëkërkues</a></li>
-            <li><a href="employers/emp-login.php">Puunëdhënës</a></li>
+            <li><a href="employers/emp-login.php">Punëdhënës</a></li>
             <li><a href="admin/index.php">Admin</a></li>
           </ul>
         <?php } ?>

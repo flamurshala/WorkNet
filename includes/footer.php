@@ -32,7 +32,7 @@
 
   <div class="box">
 
-    <h4>Quick Links</h4>
+    <h4>Qasje e lehtë</h4>
 
     <ul>
 

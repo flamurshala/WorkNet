@@ -99,7 +99,7 @@ if (strlen($_SESSION['emplogin']) == 0) {
                                     <?php echo htmlentities($result->jobTitle); ?>
                                   </a> <a href="edit-job.php?jobid=<?php echo htmlentities($result->jobId); ?>"
                                     title='Edit Job Details' class="btn btn-primary btn-sm"
-                                    style="color:#fff;margin-left:2%;">Përditësi detajet e punës</a></h4>
+                                    style="color:#fff;margin-left:2%;">Përditëso detajet e punës</a></h4>
                                 <p>
                                   <?php echo substr($result->jobDescription, 0, 300); ?>
                                 </p>

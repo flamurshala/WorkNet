@@ -35,7 +35,7 @@ $vid = $_GET['viewid'];
           <div class="row">
             <div class="col-md-12 col-sm-8">
               <div id="content-area">
-                <h2 style="color: blue">Puna i përketë kategorisë
+                <h2>Puna i përketë kategorisë
                   <?php echo htmlentities($_GET['viewid']); ?>
                 </h2>
                 <hr />

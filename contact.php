@@ -26,7 +26,7 @@ error_reporting(0);
     <?php include_once('includes/header.php'); ?>
     <section id="inner-banner">
       <div class="container">
-        <h1>Mos hesito na kontakto</h1>
+        <h1>Mos hezito na kontakto</h1>
       </div>
     </section>
     <div id="main">

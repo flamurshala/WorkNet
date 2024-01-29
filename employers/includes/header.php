@@ -6,12 +6,12 @@
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
             aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span
               class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-          <h2><a href="job-listing.php"><strong class="logo" style="padding-top:5%">WorkNet</strong></a>
+          <h2><a href="../index.php"><strong class="logo" style="padding-top:5%">WorkNet</strong></a>
           </h2>
         </div>
         <ul class="nav navbar-nav" id="nav">
           <?php if (strlen($_SESSION['emplogin']) != 0): ?>
-            <li><a href="#">Jobs</a>
+            <li><a href="#">Punët</a>
               <ul>
                 <li><a href="post-job.php">Publiko punë</a></li>
                 <li><a href="job-listing.php">Menaxho punët</a></li>
