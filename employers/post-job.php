@@ -44,10 +44,10 @@ if (strlen($_SESSION['emplogin']) == 0) {
         $query->execute();
         $lastInsertId = $dbh->lastInsertId();
         if ($lastInsertId) {
-          $msg = "Your job posted Successfully";
+          $msg = "Puna juja u publikua me sukses";
           unset($_SESSION['token']);
         } else {
-          $error = "Something went wrong.Please try again";
+          $error = "Diqka shkoj keq. Ju lutem provoni perseri";
         }
 
       }

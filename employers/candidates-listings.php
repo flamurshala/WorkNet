@@ -34,7 +34,7 @@ if (strlen($_SESSION['emplogin']) == 0) {
       </section>
       <section class="candidates-search-bar">
         <div class="container">
-          <form action="candidates-search.php" method="post">
+          <form action="" method="post">
             <div class="row">
               <div class="col-md-10">
                 <input type="text" placeholder="Enter Job Title" name="jobtitle">

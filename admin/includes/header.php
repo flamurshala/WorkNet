@@ -33,14 +33,6 @@
                     <a class="dropdown-item" href="admin-profile.php">
                         <i class="si si-user mr-5"></i> Profili
                     </a>
-
-                    <div class="dropdown-divider"></div>
-
-                    <a class="dropdown-item" href="change-password.php" data-toggle="layout"
-                        data-action="side_overlay_toggle">
-                        <i class="si si-wrench mr-5"></i> Ndërro fjalëkalimin
-                    </a>
-
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="logout.php">
                         <i class="si si-logout mr-5"></i> Dilni
