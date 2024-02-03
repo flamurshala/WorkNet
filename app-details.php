@@ -2,6 +2,7 @@
 session_start();
 error_reporting(0);
 include('includes/config.php');
+$dbh = DBConnectionFactory::createConnection();
 if (strlen($_SESSION['jsid'] == 0)) {
   header('location:logout.php');
 } else {

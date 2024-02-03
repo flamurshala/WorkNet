@@ -2,6 +2,7 @@
 session_start();
 error_reporting(0);
 include('includes/dbconnection.php');
+$dbh = DBConnectionFactory::createConnection();
 if (empty($_SESSION['jpaid'])) {
     header('location:logout.php');
 } else {

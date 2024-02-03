@@ -1,6 +1,7 @@
 <?php
 session_start();
 include('includes/config.php');
+$dbh = DBConnectionFactory::createConnection();
 error_reporting(0);
 if (strlen($_SESSION['emplogin']) == 0) {
   header('location:emp-login.php');

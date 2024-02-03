@@ -1,6 +1,7 @@
 <?php
 session_start();
 include('includes/config.php');
+$dbh = DBConnectionFactory::createConnection();
 error_reporting(0);
 if (isset($_POST['signup'])) {
   $fname = $_POST['fullname'];

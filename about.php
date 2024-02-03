@@ -1,5 +1,6 @@
 <?php
 include('includes/config.php');
+$dbh = DBConnectionFactory::createConnection();
 session_start();
 error_reporting(0);
 ?>

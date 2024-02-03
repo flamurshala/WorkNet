@@ -1,5 +1,6 @@
 <?php
 session_start();
+$dbh = DBConnectionFactory::createConnection();
 error_reporting(0);
 include('includes/config.php');
 if (isset($_GET['ajid'])) {

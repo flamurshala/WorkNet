@@ -1,6 +1,7 @@
 <?php
 session_start();
 include('includes/config.php');
+$dbh = DBConnectionFactory::createConnection();
 if (strlen($_SESSION['jsid']) == 0) {
   header('location:logout.php');
 } else {

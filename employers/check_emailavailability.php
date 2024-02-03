@@ -1,5 +1,6 @@
 <?php
 require_once("includes/config.php");
+$dbh = DBConnectionFactory::createConnection();
 
 if (!empty($_POST["email"])) {
 	$email = $_POST["email"];
